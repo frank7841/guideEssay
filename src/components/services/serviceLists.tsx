@@ -71,7 +71,7 @@ const ServiceLists = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="#0693e3"
+                stroke="#234764"
                 className="w-6 h-6"
               >
                 <path

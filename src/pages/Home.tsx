@@ -108,7 +108,7 @@ export default function Home() {
               <div className="mt-8">
                 <Link
                   to={"/order"}
-                  className="bg-blue-600 px-2 py-2   rounded-md"
+                  className="bg-[#234764] px-2 py-2   rounded-md"
                 >
                   Order Now
                 </Link>

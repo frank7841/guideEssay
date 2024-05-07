@@ -23,7 +23,7 @@ export default function ProcessCard(props: PROPS) {
                 ? require("../images/icon-support.svg").default
                 : require("../images/icon-done.svg").default
             }
-            className="bg-blue-400 px-3 py-3 rounded-full shadow-2xl"
+            className="bg-[#234764] px-3 py-3 rounded-full shadow-2xl"
             alt="icon svg"
           />
         </div>

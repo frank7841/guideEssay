@@ -28,7 +28,7 @@ export default function PriceCardHomePage(props: PROPS) {
           </Typography>
           <div>
             <span className="">From</span>{" "}
-            <span className="font-bold text-blue-400 text-4xl hover:text-white">
+            <span className="font-bold text-[#234764] text-4xl hover:text-white">
               {props.priceRange}
             </span>{" "}
             <span className="">/page</span>
