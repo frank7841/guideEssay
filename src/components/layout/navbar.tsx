@@ -18,26 +18,19 @@ export default function NavBar() {
 
   const userDetails = useAppSelector((state) => state.userInfo.value);
 
-  // const [open, setOpen] = React.useState(false);
-
-  // const handleClickOpen = () => {
-  //   setOpen(true);
-  // };
-
-  // const handleClose = () => {
-  //   setOpen(false);
+  
 
   return (
     <Fragment>
-      <div className="antialiased bg-[#abb8c3] dark-mode:bg-gray-900 font-bold font-sans flex top-0 sticky z-40 ">
-        <div className="w-full  bg-[#abb8c3] text-white dark-mode:text-gray-200 dark-mode:bg-gray-800 ">
+      <div className="antialiased bg-[#234764] dark-mode:bg-gray-900 font-bold font-sans flex top-0 sticky z-40 ">
+        <div className="w-full  bg-[#234764] text-white dark-mode:text-gray-200 dark-mode:bg-gray-800 ">
           <div className="flex flex-col max-w-screen-xl px-4 sticky mx-auto lg:items-center lg:justify-between lg:flex-row ">
             <div className="flex flex-row items-center justify-between p-4">
               <Link
                 to={"/"}
-                className="text-lg font-semibold tracking-widest text-white uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline"
+                className="text-lg font-semibold tracking-widest text-white  rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline"
               >
-                ESSAYSINN
+                GuideMyClass Researchers
               </Link>
 
               <button
@@ -65,37 +58,37 @@ export default function NavBar() {
             <nav className="flex-col flex-grow hidden pb-4 lg:pb-0 lg:flex lg:justify-end lg:flex-row ">
               <Link
                 to={"/prices"}
-                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 Prices
               </Link>
               <Link
                 to={"/Faq"}
-                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: h dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: h dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 FAQ
               </Link>
               <Link
                 to={"/samples"}
-                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-modedark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-modedark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 Samples
               </Link>
               <Link
                 to={"/guarantees"}
-                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 Guarantees
               </Link>
               <Link
                 to={"/about-us"}
-                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 About Us
               </Link>
               <Link
                 to={"/services"}
-                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 Services
               </Link>
@@ -136,7 +129,7 @@ export default function NavBar() {
                 </button> */}
               <Link
                 to={"/order"}
-                className="text-white bg-blue-400 items-center px-2 py-2 font-sans font-bold rounded-xl"
+                className="text-white bg-blue-600 items-center px-2 py-2 font-sans font-bold rounded-xl"
               >
                 <span>Order Now</span>
                 {/* <svg fill="currentColor" viewBox="0 0 20 20"  className="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"  clipRule="evenodd"></path></svg> */}

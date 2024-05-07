@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#abb8c3] text-white">
+    <footer className="bg-[#234764] text-white">
       <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <Link to={"/"}>Essayinn</Link>
+            <Link to={"/"}>GuideMyClass Reserachers</Link>
             <p className=" mt-4 text-sm text-white">
               Be advised that this service is completely legal and does not
               infringe any college/university law. The paper received from our
@@ -63,10 +63,10 @@ export default function Footer() {
                 </a>
                 <a
                   className="hover:opacity-75"
-                  href="mailto:support@essayinn.com"
+                  href="mailto:support@GuideMyClass.com"
                 >
                   {" "}
-                  support@essayinn.com
+                  support@GuideMyClass.com
                 </a>
               </nav>
             </div>

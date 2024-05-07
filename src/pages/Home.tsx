@@ -108,7 +108,7 @@ export default function Home() {
               <div className="mt-8">
                 <Link
                   to={"/order"}
-                  className="bg-blue-400 px-2 py-2   rounded-md"
+                  className="bg-blue-600 px-2 py-2   rounded-md"
                 >
                   Order Now
                 </Link>
@@ -116,56 +116,13 @@ export default function Home() {
 
               <div className="mt-20  flex space-x-4 text-start">
                 <div className="flex items-center space-x-2">
-                  <div>
-                    <img
-                      src={require("../components/images/index.svg").default}
-                      alt="sitejabber svg"
-                    />
-                  </div>
-                  <div>
-                    <div>Sitejabber</div>
-                    <div className="  text-center text-[#ffa608] flex">
-                      <div> 5.0 </div>
-                      <Rating
-                        name="text-feedback"
-                        value={5}
-                        readOnly
-                        precision={0.5}
-                        emptyIcon={
-                          <StarIcon
-                            style={{ opacity: 0.55 }}
-                            fontSize="inherit"
-                          />
-                        }
-                      />
-                    </div>
-                  </div>
+                 
+                 
                 </div>
                 <div className="flex items-center space-x-2">
+                
                   <div>
-                    <img
-                      src={require("../components/images/logo-ee.svg").default}
-                      alt="Essayinn svg"
-                    />
-                  </div>
-                  <div>
-                    <div>Essayinn</div>
-
-                    <div className="  text-center text-[#ffa608] flex">
-                      <div> 4.8 </div>
-                      <Rating
-                        name="text-feedback"
-                        value={value}
-                        readOnly
-                        precision={0.5}
-                        emptyIcon={
-                          <StarIcon
-                            style={{ opacity: 0.55 }}
-                            fontSize="inherit"
-                          />
-                        }
-                      />
-                    </div>
+                    
                   </div>
                 </div>
               </div>
