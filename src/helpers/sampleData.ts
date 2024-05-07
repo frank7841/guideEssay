@@ -1,0 +1,38 @@
+export const samplesArrays = [
+  {
+    id: 1,
+    title: "Digital Marketing Strategy: Growth Hacking Strategy",
+    ratings: 4.5,
+    Academic: "Undergraduate",
+    Discipline: "History",
+    pages: "7",
+    url: "test/samples/",
+  },
+  {
+    id: 2,
+    title: "Roles of Five Major Stakeholders the U.S. Healthcare System",
+    ratings: 5,
+    Academic: "Undergraduate",
+    Discipline: "International relations",
+    pages: "6",
+    url: "test/samples/",
+  },
+  {
+    id: 3,
+    title: "Legal Analysis Memorandum",
+    ratings: 5,
+    Academic: "Undergraduate",
+    Discipline: "Criminal Law",
+    pages: "4",
+    url: "test/samples/",
+  },
+  {
+    id: 4,
+    title: "Industrialization: Urban Impact",
+    ratings: 5,
+    Academic: "Undergraduate",
+    Discipline: "Urban studies",
+    pages: "7",
+    url: "test/samples/",
+  },
+];
