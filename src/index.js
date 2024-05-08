@@ -13,7 +13,7 @@ import {
   ApolloProvider,
 } from "@apollo/client";
 const httpLink = createHttpLink({
-  uri: "https://api.essaysinn.com/api",
+  uri: "https://api.guidemyclass.com/api",
 });
 
 const authLink = setContext((_, { headers }) => {

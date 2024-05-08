@@ -49,7 +49,7 @@ const DashBoardProfileLayout: React.FC<DashBoardLayoutInterface> = (props) => {
             E<span className="text-teal-600">.</span>
           </h1>
           <h1 className="hidden md:block font-bold text-sm md:text-xl text-center">
-            Essay Inn
+            GuideMyClass
           </h1>
           <div id="profile" className="space-y-3 ">
             <div>
@@ -167,7 +167,7 @@ const DashBoardProfileLayout: React.FC<DashBoardLayoutInterface> = (props) => {
           <div className="space-y-6 md:space-y-10 mt-10">
             <h1 className="font-bold text-4xl text-center md:hidden">E</h1>
             <h1 className="hidden md:block font-bold text-sm md:text-xl text-center">
-              Essay Inn
+              GuideMyClass
             </h1>
 
             <div id="menu" className="flex flex-col space-y-2">

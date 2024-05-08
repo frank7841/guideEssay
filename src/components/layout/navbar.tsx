@@ -62,12 +62,7 @@ export default function NavBar() {
               >
                 Prices
               </Link>
-              <Link
-                to={"/Faq"}
-                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: h dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-              >
-                FAQ
-              </Link>
+           
               <Link
                 to={"/samples"}
                 className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-modedark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
@@ -91,6 +86,12 @@ export default function NavBar() {
                 className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 Services
+              </Link>
+              <Link
+                to={"/Faq"}
+                className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: h dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              >
+                FAQ
               </Link>
 
               {userDetails.id.length ? (
@@ -147,15 +148,7 @@ export default function NavBar() {
                       Prices
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      to={"/Faq"}
-                      className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: h dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                      onClick={() => setSidebar(false)}
-                    >
-                      FAQ
-                    </Link>
-                  </li>
+                
                   <li>
                     <Link
                       to={"/samples"}
@@ -190,6 +183,15 @@ export default function NavBar() {
                       onClick={() => setSidebar(false)}
                     >
                       Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to={"/Faq"}
+                      className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: h dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                      onClick={() => setSidebar(false)}
+                    >
+                      FAQ
                     </Link>
                   </li>
                   <li className="mt-2 mb-2">

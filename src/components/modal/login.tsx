@@ -382,12 +382,12 @@ export default function LoginModal(props: PROPS) {
                 </button>
               </div>
               <div className="w-full flex items-center justify-center">
-                <button
+                <p>Don't have an account ?<button
                   onClick={() => setSignup(true)}
                   className="mt-2 hover:text-blue-700 px-2 text-center  text-blue-400 py-2 rounded-md"
                 >
                   signup
-                </button>
+                </button></p>
               </div>
             </Box>
           ) : (
@@ -494,12 +494,13 @@ export default function LoginModal(props: PROPS) {
                 </button>
               </div>
               <div className="w-full flex items-center justify-center">
-                <button
+                <p> Already have an account? <button
                   onClick={() => setSignup(false)}
                   className="mt-2 hover:text-blue-700 px-2 text-center  text-blue-400 py-2 rounded-md"
                 >
                   login
                 </button>
+                </p>
               </div>
             </Box>
           )}

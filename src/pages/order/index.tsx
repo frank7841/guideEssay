@@ -444,7 +444,7 @@ const OrderPage = () => {
         },
         withCredentials: true,
       };
-      const url = `https://api.essaysinn.com/upload`;
+      const url = `https://api.guidemyclass.com/upload`;
 
       // console.log(imageData);
       try {
@@ -473,7 +473,7 @@ const OrderPage = () => {
   const initiatePaymentHandler = () => {
     if (userDetails.id) {
       axios
-        .post("https://api.essaysinn.com/payments/initiate", {
+        .post("https://api.guidemyclass.com/payments/initiate", {
           amount: +finalPrice.toFixed(2) * 100,
         })
         .then((res: any) => {
