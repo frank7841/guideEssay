@@ -679,9 +679,9 @@ const OrderPage = () => {
         <>
           {!completed ? (
             <Checkout
-              secretKey={secretKey}
+              // secretKey={secretKey}
               finalPrice={finalPrice}
-              setInitiatePayment={setInitiatePayment}
+              // setInitiatePayment={setInitiatePayment}
               addOrderHandler={addOrderHandler}
             />
           ) : (
