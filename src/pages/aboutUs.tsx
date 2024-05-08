@@ -5,19 +5,19 @@ const processDescription = [
     id: 1,
     icon: "../images/icon-done.svg",
     title: "Attention",
-    body: "Every customer is treated as special. Your requirements and instructions are taken into account and then surpassed. We encourage our customers to provide as much detail as possible and our team of expert analyst and writers will provide a paper modeled to your satisfaction.",
+    body: "Every client is given unique attention. We consider your needs and directions, then go above and beyond. We urge our clients to submit as much information as they can, and our staff of knowledgeable analysts and writers will produce a paper that meets your requirements exactly.",
   },
   {
     id: 2,
     icon: "../images/icon-done.svg",
     title: "Reliability",
-    body: "We guaranty reliable and expert services that surpass client’s expectations, and if by any chance you are not satisfied, then we will offer a full refund. That’s the degree to which we value integrity. Your loyalty is more value than all the money in the world.",
+    body: "We promise dependable, knowledgeable services that go above and above for our clients. Should you be unsatisfied for any reason, we will provide a complete refund. That is the extent to which we regard honesty. Your loyalty is more value than all things in the world.",
   },
   {
     id: 3,
     icon: "../images/icon-done.svg",
     title: "Professionalism",
-    body: "With over a decade in this service domain, our contents adhere to strict academic standards and professionalism. Our customer service representatives conduct themselves in only manners that aim to serve you.",
+    body: "Having been in this service area for more than 10 years, our materials follow rigorous academic guidelines and are professionally done. Our customer support agents only act in a way that is intended to benefit you. Because we firmly believe in academic integrity, GuideMyClass is a reputable writing firm that adheres to the greatest standards.",
   },
 ];
 export default function AboutUs() {
@@ -32,13 +32,12 @@ export default function AboutUs() {
         </h1>
         <div className="flex justify-center mt-10">
           <p className="px-2 text-center max-w-4xl justify-center">
-            A custom academic writing service provider with over a 7 years of
-            extensive experience in the academic and business writing service
-            domain. We are consistently engaged in advising students on the
-            methodologies of how to cope with essay writing, term papers,
-            thesis, dissertation and any other types of writings. With over 10
-            hundred clients annually, and a client return rate of a 85 %, our
-            service aims to ensure top notch quality papers.
+          a company that offers custom academic writing services and has over 7 years of
+          experience in both the academic and business writing service sectors. We
+          regularly give students advice on effective strategies for handling essays, term
+          papers, theses, dissertations, and other kinds of writing. With over ten thousand
+          customers a year and an 87% client retention rate, our service guarantees
+          extremely high-quality papers.
           </p>
         </div>
         <div className="flex flex-row space-x-2 justify-center mt-4">
@@ -72,16 +71,17 @@ export default function AboutUs() {
       </div>
       <div className="text-center text-gray-600 text-lg">
         <p className="text-xl font-bold  ">
-          ExtraEssay is a legitimate writing service and our strong <br />
+          GuideMyClass is a legitimate writing service and our strong <br />
           belief in academic integrity is held to the highest of <br />
           standards
         </p>
         <p className="mt-4">
-          Our main goal is to help present a conceptual model of papers you
-          might be having
-          <br /> challenges writing. By presenting a paper worthy of turning in,
-          we provide you with what <br /> an excellent model of your required
-          paper should look like.
+        Our primary objective is to assist in providing a conceptual model for any papers you
+        may be experiencing difficulty composing. We give you a great example of what an
+        outstanding submission for your needed paper should look like by submitting a paper
+        that is worthy of being turned in. The greatest authors in the writing services sector
+        are ours. We are able to make this claim with pride since working as a writer for our 
+        company requires a great deal of rigorous and intense employment procedures.
         </p>
         <p className="mt-4">
           Our writers are the very best in the writing service industry. We can
@@ -95,9 +95,8 @@ export default function AboutUs() {
         <h1 className="font-bold text-2xl">Contact Us</h1>
 
         <p className=" mt-4 ">
-          Here you will find contact details for which you can contact us with
-          any questions
-          <br /> about our company, our services or employment issues.
+        You can reach us using the information below if you have any queries <br/>
+        about our business, our services, or employment-related matters.
         </p>
         <div className="mt-10 font-bold">
           <a

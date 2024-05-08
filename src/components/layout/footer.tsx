@@ -8,18 +8,16 @@ export default function Footer() {
           <div>
             <Link to={"/"}>GuideMyClass Reserachers</Link>
             <p className=" mt-4 text-sm text-white">
-              Be advised that this service is completely legal and does not
-              infringe any college/university law. The paper received from our
-              company may be used as a source for a deeper comprehension on the
-              subject, or as a source for your own academic research. Please be
-              also aware on how to cite any taken insights. To review rules on
-              rephrasing please refer to your institution plagiarism policy.
-              Site management.
+            Please be aware that there is no violation of college or university law and that this service is entirely lawful. You can use the paper you received from our organization as
+a starting point for your own academic research or as a means of gaining a deeper
+understanding of the subject. Please remember to cite any insights you take as well.
+Please see your institution&#39;s plagiarism policy for further information on rephrasing
+guidelines. site administration.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
             <div>
-              <p className="font-medium">Navigation</p>
+              <p className="font-medium">Quick Links</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                 <Link className="hover:opacity-75" to="/prices">
                   {" "}
@@ -44,6 +42,7 @@ export default function Footer() {
                   {" "}
                   Services{" "}
                 </Link>
+               
               </nav>
             </div>
             <div>

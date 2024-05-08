@@ -25,7 +25,7 @@ const processDescription = [
     id: 1,
     icon: "../images/icon-file.svg",
     title: "Set up an order",
-    body: "Create a profile and fill in detailed order instructions",
+    body: "Make a profile and complete all of the order instructions.",
   },
   {
     id: 2,
@@ -44,49 +44,49 @@ const prices = [
   {
     id: 1,
     title: "High School",
-    priceRange: "$9",
+    priceRange: "$7",
   },
   {
     id: 2,
-    title: "College",
+    title: "College/Undergraduate",
     priceRange: "$10-12",
   },
   {
     id: 3,
-    title: "Undergraduate",
-    priceRange: "$11-13",
+    title: "Masters/PHD",
+    priceRange: "$12-14",
   },
 ];
 const Features = [
   {
     id: 1,
     title: "Plagiarism-free papers",
-    body: "Our plagiarism software tool is consistently upgraded to ensure that it detects plagiarized texts with high certainty and accuracy.",
+    body: "To guarantee that it identifies plagiarized materials with a high degree of accuracy and assurance, our plagiarism detection program is continuously updated.",
   },
   {
     id: 2,
     title: "Loyalty discounts",
-    body: "If you want to defer more than 10 papers to us - you will get 15% discounton all the next papers. No strings attached!",
+    body: "You will receive a 15% discount on any subsequent papers if you choose to defer more than ten papers to us. Nothing is obligated!",
   },
   {
     id: 3,
     title: "Free revisions",
-    body: "Perfection can take multiple efforts, and it is espessially significant to know that you can request free corrections if you dislike the paper.",
+    body: "It can take several attempts to achieve perfection, therefore it&#39;s especially important to know that you can ask for free revisions if you don&#39;t like the work.",
   },
   {
     id: 4,
     title: "Money back guarantee",
-    body: "If you see that the paper is not completed per your guidelines, you are eligible for a 100% money-back before you accept the paper.",
+    body: "Before accepting the paper, you are entitled to a 100% money-back refund if you discover that it was not completed in accordance with your instructions.",
   },
   {
     id: 5,
     title: "Safe & Secure payments",
-    body: "We cooperate with PayPal, where you can pay both with your balance and credit/debit card. PayPal is a secure payment method.",
+    body: "We work with PayPal to allow you to pay with a credit or debit card as well as your balance. PayPal is a safe way to make payments.",
   },
   {
     id: 6,
     title: "24/7 support",
-    body: "We keep our communication lines open 24/7. The service is friendly and responsive to make your experience smooth and possible.",
+    body: "Our channels of communication are always open. The helpful and accommodating staff works to ensure that your experience is seamless and feasible.",
   },
 ];
 
