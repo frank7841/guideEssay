@@ -411,7 +411,7 @@ const OrderPage = () => {
         },
         withCredentials: true,
       };
-      const url = `https://api.guidemyclass.com /upload`;
+      const url = `https://api.guidemyclass.com/upload`;
 
       // console.log(imageData);
       try {
