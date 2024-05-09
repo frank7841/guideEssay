@@ -63,12 +63,12 @@ export default function NavBar() {
                 Prices
               </Link>
            
-              <Link
+              {/* <Link
                 to={"/samples"}
                 className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-modedark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 Samples
-              </Link>
+              </Link> */}
               <Link
                 to={"/guarantees"}
                 className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode: dark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-blue-600   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
@@ -149,7 +149,7 @@ export default function NavBar() {
                     </Link>
                   </li>
                 
-                  <li>
+                  {/* <li>
                     <Link
                       to={"/samples"}
                       className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-modedark-mode:text-gray-200 md:mt-0 md:ml-4  hover:text-blue-500 focus:text-white   focus:bg-gray-200 focus:outline-none focus:shadow-outline"
@@ -157,7 +157,7 @@ export default function NavBar() {
                     >
                       Samples
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       to={"/guarantees"}

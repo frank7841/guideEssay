@@ -26,10 +26,10 @@ guidelines. site administration.
                 <Link className="hover:opacity-75" to="/faq">
                   Faq
                 </Link>
-                <Link className="hover:opacity-75" to="/samples">
+                {/* <Link className="hover:opacity-75" to="/samples">
                   {" "}
                   Samples{" "}
-                </Link>
+                </Link> */}
                 <Link className="hover:opacity-75" to="/guarantees">
                   {" "}
                   Guarantees{" "}
@@ -50,15 +50,15 @@ guidelines. site administration.
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                 <a
                   className="hover:opacity-75 flex space-x-2"
-                  href="tel:254727563625"
+                  href="tel:447365270700"
                 >
                   {" "}
                   <img
-                    src={require("../images/kenya.png")}
+                    src={require("../images/gb.svg").default}
                     alt="ExtaEssay svg"
                     className="h-5 w-5"
                   />{" "}
-                  <span>+254727563625</span>
+                  <span>+447365270700</span>
                 </a>
                 <a
                   className="hover:opacity-75"
@@ -97,6 +97,51 @@ guidelines. site administration.
                   />{" "}
                 </div>
               </nav>
+            </div>
+            <div>
+              <p className="font-medium">Global Offices</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                <div className="flex space-x-2">
+                  <img className="w-8"
+                    src={require("../images/um.svg").default}
+                    alt="ExtaEssay svg"
+                  />{" "}
+                  <img className="w-8"
+                    src={require("../images/gb.svg").default}
+                    alt="ExtaEssay svg"
+                  />{" "}
+          
+             
+                  <img className="w-8"
+                    src={require("../images/nl.svg").default}
+                    alt="ExtaEssay svg"
+                  />{" "}
+                  <img className="w-8"
+                    src={require("../images/ca.svg").default}
+                    alt="ExtaEssay svg"
+                  />{" "}
+                  <img className="w-8"
+                    src={require("../images/sg.svg").default}
+                    alt="ExtaEssay svg"
+                  />{" "}
+                </div>
+              </nav>
+            </div>
+            <div className="fixed bottom-0 right-0 flex justify-end mb-4 mr-4">
+              <a href="https://wa.link/guidemyclass" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={require("../images/whatsapp.svg").default}
+                  alt="WhatsApp"
+                  className="h-8 w-8"
+                />
+              </a>
+              <a href="https://t.me/guidemyclass" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={require("../images/telegram.svg").default}
+                  alt="Telegram"
+                  className="h-8 w-8 ml-4"
+                />
+              </a>
             </div>
           </div>
         </div>

@@ -602,9 +602,9 @@ export default function MakeOrderCard(props: PROPS) {
               }}
             />
             I agree to{" "}
-            <button className="underline text-blue-400">
+            <a href ="https://docs.google.com/document/d/1Bfi8lhHdV0WhehwXj0XFyGFbw4fdaCIoTYUcQxDmXf0/edit?usp=sharing" className="underline text-blue-400">
               Terms And conditions
-            </button>{" "}
+            </a>{" "}
             and{" "}
             <button className="underline text-blue-400">Privacy Policy</button>
           </div>

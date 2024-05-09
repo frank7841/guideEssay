@@ -212,8 +212,8 @@ export default function Home() {
           <ServiceLists />
         </div>
       </div>
-      <div className="mt-4 text-4xl text-center font-bold">Samples</div>
-      <div className="flex justify-center  items-center mt-4">
+      {/* <div className="mt-4 text-4xl text-center font-bold">Samples</div> */}
+      {/* <div className="flex justify-center  items-center mt-4">
         <div className="w-full">
           <Carousel
             autoPlay
@@ -233,7 +233,7 @@ export default function Home() {
             })}
           </Carousel>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

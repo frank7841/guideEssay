@@ -377,39 +377,6 @@ const OrderPage = () => {
       const fileData = new FormData();
 
       file.forEach((singleFile: any, i: any) => {
-        // const fileUpload = DataURIToBlob(singleFile);
-
-        // const extentionUrl = getSecondPart(fileUpload.type);
-        // const extension =
-        //   extentionUrl ===
-        //   "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        //     ? "xlsx"
-        //     : extentionUrl === "application/vnd.ms-excel"
-        //     ? "xls"
-        //     : extentionUrl ===
-        //       "application/vnd.openxmlformats-officedocument.presentationml.presentation"
-        //     ? "pptx"
-        //     : extentionUrl === "application/vnd.ms-powerpoint"
-        //     ? "ppt"
-        //     : extentionUrl === "application/pdf"
-        //     ? "pdf"
-        //     : extentionUrl ===
-        //       "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-        //     ? "docx"
-        //     : extentionUrl === "application/msword"
-        //     ? "doc"
-        //     : extentionUrl === "text/csv"
-        //     ? "csv"
-        //     : extentionUrl;
-        // var regex = /[.:,-\s]/g;
-
-        // const dateToString = new Date().toISOString();
-        // var result = dateToString.replace(regex, "");
-        // const reader = new FileReader();
-        // reader.addEventListener("load", () =>
-        //   setFile(reader.result?.toString() || "")
-        // );
-        // reader.readAsDataURL(value.target.files[0]);
         const fileName = singleFile[0].name.replace(/[^a-z.A-Z0-9 ]/g, "");
         fileData.append("Files", singleFile[0], fileName.replace(/\s/g, ""));
       });
@@ -444,7 +411,7 @@ const OrderPage = () => {
         },
         withCredentials: true,
       };
-      const url = `https://api.guidemyclass.com/upload`;
+      const url = `http://api.guidemyclass.com /upload`;
 
       // console.log(imageData);
       try {
@@ -468,34 +435,37 @@ const OrderPage = () => {
         });
       }
     }
+    
   };
+  
 
   const initiatePaymentHandler = () => {
     if (userDetails.id) {
-      axios
-        .post("https://api.guidemyclass.com/payments/initiate", {
-          amount: +finalPrice.toFixed(2) * 100,
-        })
-        .then((res: any) => {
-          setSecretKey(res.data.paymentDetails.client_secret);
-          setInitiatePayment(true);
-          window.scrollTo(0, 0);
-        })
-        .catch((err: any) => {
-          Store.addNotification({
-            title: "Error!!",
-            message: `${err.message}`,
-            type: "danger",
-            insert: "top",
-            container: "top-right",
-            animationIn: ["animate__animated", "animate__fadeIn"],
-            animationOut: ["animate__animated", "animate__fadeOut"],
-            dismiss: {
-              duration: 5000,
-              onScreen: true,
-            },
-          });
-        });
+      addOrderHandler()
+      // axios
+      //   .post("https://api.guidemyclass.com/payments/initiate", {
+      //     amount: +finalPrice.toFixed(2) * 100,
+      //   })
+      //   .then((res: any) => {
+      //     setSecretKey(res.data.paymentDetails.client_secret);
+      //     setInitiatePayment(true);
+      //     window.scrollTo(0, 0);
+      //   })
+      //   .catch((err: any) => {
+      //     Store.addNotification({
+      //       title: "Error!!",
+      //       message: `${err.message}`,
+      //       type: "danger",
+      //       insert: "top",
+      //       container: "top-right",
+      //       animationIn: ["animate__animated", "animate__fadeIn"],
+      //       animationOut: ["animate__animated", "animate__fadeOut"],
+      //       dismiss: {
+      //         duration: 5000,
+      //         onScreen: true,
+      //       },
+      //     });
+      //   });
     } else {
       setOpen(true);
     }
@@ -679,9 +649,9 @@ const OrderPage = () => {
         <>
           {!completed ? (
             <Checkout
-              // secretKey={secretKey}
+              secretKey={secretKey}
               finalPrice={finalPrice}
-              // setInitiatePayment={setInitiatePayment}
+              setInitiatePayment={setInitiatePayment}
               addOrderHandler={addOrderHandler}
             />
           ) : (

@@ -92,7 +92,7 @@ export default function AboutUs() {
             href="tel:19292010120"
           >
        
-            <span>+254727563625</span>
+            <span>+447365270700</span>
           </a>
           <br />
           <a

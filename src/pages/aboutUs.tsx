@@ -107,7 +107,7 @@ export default function AboutUs() {
               src={require("../components/images/icon-flag-usa.svg").default}
               alt="EssayIn svg"
             />{" "}
-            <span>+254727563625</span>
+            <span>+447365270700</span>
           </a>
           <br />
           <a
