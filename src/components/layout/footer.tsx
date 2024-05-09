@@ -62,10 +62,10 @@ guidelines. site administration.
                 </a>
                 <a
                   className="hover:opacity-75"
-                  href="mailto:support@GuideMyClass.com"
+                  href="mailto:support@guidemyclass.com"
                 >
                   {" "}
-                  support@GuideMyClass.com
+                  support@guidemyclass.com
                 </a>
               </nav>
             </div>

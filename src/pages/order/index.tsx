@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState  } from "react";
+
 import MakeOrderCard from "../../components/order/makeOrder";
 import AdditionalPaperDetailsCard from "../../components/order/AdditionalPaperDetails";
 import BoostYourWork from "../../components/order/boostYourWork";
@@ -440,8 +441,10 @@ const OrderPage = () => {
   
 
   const initiatePaymentHandler = () => {
+
     if (userDetails.id) {
       addOrderHandler()
+      window.location.href = "https://guidemyclass.com";
       // axios
       //   .post("https://api.guidemyclass.com/payments/initiate", {
       //     amount: +finalPrice.toFixed(2) * 100,
